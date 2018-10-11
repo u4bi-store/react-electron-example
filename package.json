@@ -23,6 +23,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "electron": "^3.0.3"
+    "electron": "^3.0.3",
+    "electron-builder": "^20.28.4"
   }
 }
