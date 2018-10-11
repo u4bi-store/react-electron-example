@@ -2,6 +2,8 @@
   "name": "cra-el",
   "version": "0.1.0",
   "private": true,
+  "main": "public/electron.js",
+  "homepage": "./",
   "dependencies": {
     "electron-is-dev": "^1.0.1",
     "react": "^16.5.2",
@@ -12,7 +14,9 @@
     "react-start": "react-scripts start",
     "react-build": "react-scripts build",
     "react-test": "react-scripts test",
-    "react-eject": "react-scripts eject"
+    "react-eject": "react-scripts eject",
+    "electron-build": "electron-builder",
+    "build": "npm run react-build && npm run electron-build"
   },
   "eslintConfig": {
     "extends": "react-app"
